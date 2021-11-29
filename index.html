@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wreck-a-Saurus</title>
+    <style>
+        body {
+            background-position: center;
+            background-size: cover;
+        }
+
+        #myCanvas {
+            margin-top: 30px;
+            border-width: 10px;
+            background-color: white;
+            border-style: inset;
+        }
+
+        h1,
+        h4 {
+            color: white !important;
+            background-color: rgb(0, 0, 130);
+        }
+
+        #Win{
+            color: white !important;
+            background-color: tomato;
+        }
+    </style>
+
+
+    <script src="fabric.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<body class="body_background">
+
+    <center>
+
+        <h1 width="200">Wreck-a-Saurus</h1>
+        <br>
+        <h2>Press the up and down arrow keys to configure the position of the dinosuar. Then press space key to make the dinosuar walk and crush the evil hunter (Evil? He looks cute to me.).</h2>
+        <h3><b id="Hint"></b></h3>
+        <br>
+        <h1 id="Win"></h1>
+
+        <canvas id="myCanvas" width="800" height="800"></canvas>
+
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
